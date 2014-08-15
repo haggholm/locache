@@ -1,0 +1,23 @@
+{
+  "name": "locache",
+  "version": "0.4.2",
+  "description": "locache browser cache",
+  "main": "build/locache.js",
+  "directories": {
+    "doc": "docs",
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/sstephens/locache.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sstephens/locache/issues"
+  },
+  "homepage": "https://github.com/sstephens/locache"
+}
