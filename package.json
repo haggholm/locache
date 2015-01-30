@@ -12,12 +12,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/sstephens/locache.git"
+    "url": "git://github.com/haggholm/locache.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/sstephens/locache/issues"
+    "url": "https://github.com/haggholm/locache/issues"
   },
-  "homepage": "https://github.com/sstephens/locache"
+  "homepage": "https://github.com/haggholm/locache"
 }
