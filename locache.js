@@ -17,7 +17,6 @@
     // --------------------
 
     // Save a reference to the global object, in most cases this is `window`.
-    // BG - 'this' reference broke with browserify, updated to 'window'
     var root = window;
 
     // Object context bnding shim to support older versions of IE.
@@ -666,4 +665,5 @@
     // Attach the locache namespace to the global window object.
     root.locache = locache;
 
-}).call(this);
+    module.exports = locache;
+})();

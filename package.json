@@ -1,8 +1,8 @@
 {
   "name": "locache",
-  "version": "0.4.2",
+  "version": "0.4.3",
   "description": "locache browser cache",
-  "main": "build/locache.js",
+  "main": "locache.js",
   "directories": {
     "doc": "docs",
     "test": "tests"
