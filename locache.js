@@ -17,7 +17,8 @@
     // --------------------
 
     // Save a reference to the global object, in most cases this is `window`.
-    var root = this;
+    // BG - 'this' reference broke with browserify, updated to 'window'
+    var root = window;
 
     // Object context bnding shim to support older versions of IE.
     var bind = function (func, thisValue) {
